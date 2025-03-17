@@ -1,0 +1,21 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment folders
+venv/
+.env/
+
+# Ignore database credentials if stored in a file
+config.json
+config.yaml
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+
+# Ignore logs and temp files
+*.log
+*.tmp
